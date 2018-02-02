@@ -4,7 +4,7 @@
   "description": "Nest TypeScript starter repository",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js",
+    "start": "node -r dotenv/config index.js",
     "start:watch": "nodemon",
     "prestart:prod": "tsc",
     "start:prod": "node dist/main.js"
@@ -15,10 +15,13 @@
     "@nestjs/microservices": "^4.5.8",
     "@nestjs/testing": "^4.5.5",
     "@nestjs/websockets": "^4.5.8",
+    "dotenv": "^5.0.0",
     "redis": "^2.7.1",
     "reflect-metadata": "^0.1.12",
+    "request": "^2.83.0",
     "rxjs": "^5.5.6",
-    "typescript": "^2.6.2"
+    "typescript": "^2.6.2",
+    "web-request": "^1.0.7"
   },
   "devDependencies": {
     "@types/node": "^9.3.0",
