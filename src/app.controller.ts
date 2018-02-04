@@ -17,12 +17,12 @@ export class AppController {
     <style>
       body { font-family: sans-serif;font-weight:300;color:#333;}
     </style>
-      <p><strong>Hi! welcome to the civi api.</strong></p>
+      <p><strong>Hi! Welcome to the civi api.</strong></p>
       <p><strong>Endpoints:</strong></p>
       <ul>
-        <li>v1/my-representatives?zip=11211</li>
-        <li>v1/elections</li>
-        <li>v1/voting?address=101 main street brooklyn ny 11211</li>
+        <li><a href="/v1/my-representatives?zip=11211">/v1/my-representatives?zip=11211</a></li>
+        <li><a href="/v1/elections">v1/elections</a></li>
+        <li><a href="v1/voting?address=101 main street brooklyn ny 11211">v1/voting?address=101 main street brooklyn ny 11211</a></li>
       </ul>
     `;
   }
